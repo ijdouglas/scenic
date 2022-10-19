@@ -6,9 +6,9 @@ import ml_collections
 from scenic.projects.mtv import config_utils
 
 # Replace with the actual dataset size.
-KINETICS_400_TRAIN_SIZE = 0
-KINETICS_400_VAL_SIZE = 0
-KINETICS_400_TEST_SIZE = 0
+KINETICS_400_TRAIN_SIZE = 12000
+KINETICS_400_VAL_SIZE = 12000
+KINETICS_400_TEST_SIZE = 12000
 MODEL_VARIANT = 'Ti/8+S/4+B/2'
 
 
